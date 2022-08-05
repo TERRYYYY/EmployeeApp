@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+body {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    min-height: 100vh;
+  }
+
+.container-fluid{
+    margin-top: 10px;
+}
+
+.card{
+    width: 500px;
+    height: 150px;
+    margin-left: 50px;
+}
+.navbar{
+    height: 70px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 7px grey;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+.add-employee-form{
+    margin-left: 50px;
+    right: 50%;
+}
+#deleteButton{
+    margin-left: 20px;
+    color: red;
+}
+#editButton{
+    color: blue;
+}
+
+  
